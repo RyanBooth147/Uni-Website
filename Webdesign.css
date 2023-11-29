@@ -1,0 +1,325 @@
+.body {
+  margin: 0px;
+  margin-bottom: 0px;
+}
+.logo { /*position of the page logo*/
+  float: left;
+  height: 100;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  Width:90px;
+  height:70px;
+}
+.PageTopper { /*full container of the page header*/
+  position: fixed;
+  z-index: 2;
+  text-align: center;
+  background-color: #1C51D8;     
+  width: 100%;
+  height: 70px;
+}
+.homehead { /*the position and style of the home icon*/
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+  text-decoration: none;
+}
+.homehead:hover { /*changes the home heading while hovering over it*/
+  color: black;
+  text-decoration: underline;
+}
+.homehead1 { /*the changed title for when a user is on the page to tell them what page they are on*/
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+  text-decoration: none;
+}
+.Abouthead {
+  color: white;
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+}
+.Abouthead:hover {
+  color: black;
+  text-decoration: underline;
+}
+.Abouthead1 {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+}
+.Productshead {
+  color: white;
+  position: absolute;
+  left: 55%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+}
+.Productshead:hover {
+  color: black;
+  text-decoration: underline;
+}
+.Productshead1 {
+  position: absolute;
+  left: 55%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+}
+.contactushead {
+  color: white;
+  position: absolute;
+  left: 75%;
+  top: 5%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  margin: 7.5px;
+  border: none;
+  background-color: #1C51D8;
+  width: 200px;
+  height: 100%;
+}
+.dropdown { /*part of the configuration for the dropdown menu*/
+  position: absolute;
+  left: 75%;
+  top: -15%;
+  height: 70px;
+  display: block;
+}
+.dropdown-content { /*the content of the drop down menu*/
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  height: 500px;
+  width: 400px;
+  top: 115%;
+  left: -100px;
+}
+.dropdown-content a { /*the text style in the dropdown menu*/
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content { /*displays the dropdown menu*/
+  display: block;
+}
+.dropdown:hover .contactushead { /*changes the syle of the contact us heading when hovering*/
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.contactfoot{ /*the footer at the bottom of the dropdown menu*/
+  background-color: #1C51D8;
+  height: 80px;
+}
+.facebookiconcontact{ /*these are the positions and styles of the items on the dropdown menu*/
+  position: relative;
+  right: 10%;
+  height: 57px;
+  width: 65px;
+}
+.facebooklinkcontact{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  left: 10%;
+  bottom: 50px;
+  font-size: 18px;
+}
+.TwitterIconcontact{
+  position: relative;
+  right: 10%;
+  height: 57px;
+  width: 65px;
+}
+.Twitterlinkcontact{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  left: 9%;
+  bottom: 50px;
+  font-size: 18px;
+}
+.InstagramIconcontact{
+  position: relative;
+  top: 10px;
+  right: 10%;
+  width: 65px;
+}
+.Instagramlinkcontact{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  left: 12%;
+  bottom: 50px;
+  font-size: 18px;
+}
+.Banner { /*the size and postion of the hero image*/
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 313px;
+}
+.Banner-Image {
+  width: 100%;
+  height: 313px;
+}
+.PageBody { /*the size of the area for the page text*/
+  height: 206px;
+  width: 100%;
+}
+.HomeText { /*these are the styles and positions of the text for the main body*/
+  font: "Segoe UI";
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  top: 10%;
+}
+.AboutText {
+  font: "Segoe UI";
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  top: 10%;
+}
+.ProductsText {
+  font: "Segoe UI";
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+}
+.Images { /*the container that holds the 3 images on the bottom of the pages*/
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.Image1 { /*enables the three images to appear side by side*/
+  position: relative;
+  height: 350px;
+  width: 33%;
+}
+.Image2 {
+  position: relative;
+  height: 350px;
+  width: 33%;
+}
+.Image3 {
+  position: relative;
+  height: 350px;
+  width: 33%;
+}
+.footercontainer { /*container for the page footer*/
+  width: 100%;
+  height: 80px;
+  background-color: #1C51D8;
+  text-align: center;
+}
+.facebookicon{ /*these allow for the icons and links in the footer to appear horizontally rather then vertically*/
+  position: relative;
+  top: 10px;
+  height: 57px;
+  width: 65px;
+  right: 5%;
+}
+.facebooklink{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  bottom: 15px;
+  font-size: 18px;
+  right: 5%;
+}
+.TwitterIcon{
+  position: relative;
+  top: 10px;
+  height: 57px;
+  width: 65px;
+}
+.Twitterlink{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  bottom: 15px;
+  font-size: 18px;
+}
+.InstagramIcon{
+  position: relative;
+  top: 10px;
+  height: 57px;
+  width: 65px;
+  left: 5%;
+}
+.Instagramlink{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  bottom: 15px;
+  font-size: 18px;
+  left: 5%;
+}
+.YoutubeIcon{
+  position: relative;
+  top: 10px;
+  height: 57px;
+  width: 65px;
+  left: 10%;
+}
+.Youtubelink{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  bottom: 15px; 
+  font-size: 18px;
+  left: 10%;
+}
+.MobileIcon{
+  position: relative;
+  top: 10px;
+  height: 57px;
+  width: 65px;
+  left: 15%;
+}
+.Mobilelink{
+  position: relative;
+  font: "Segoe UI";
+  color: black;
+  text-decoration: underline;  
+  bottom: 10px;
+  font-size: 18px;
+  left: 15%;
+}
+.copyrightcontainter{ /*allows for the copyright for the page to remain in the footer but seperate from the other links*/
+  text-align: left;
+  position: relative;
+ }
+.copyright{
+  font: "seoge UI";
+  color: white; 
+  text-align: left;
+} 
